@@ -1,0 +1,44 @@
+aside {
+  grid-area: aside;
+  width: 540px;
+  height: 914px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 21px;
+  width: 357px;
+  height: 533px;
+  margin: 190px 972px 357px 111px;
+}
+
+.price h1 {
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 4.375rem;
+}
+
+.price .description {
+  font-size: 1rem;
+  color: var(--text-description);
+}
+
+.price .priceValue {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.price button {
+  background: var(--button);
+  color: #fff;
+
+  width: 274px;
+  height: 90px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}

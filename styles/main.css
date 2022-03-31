@@ -1,0 +1,26 @@
+main {
+  grid-area: main;
+  width: 900px;
+  height: 914px;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--main-background);
+}
+
+.shoes {
+  margin: 174px 18px 40px;
+}
+
+.amplifiedImg {
+  display: flex;
+  margin: auto;
+}
+
+.carrousel {
+  display: flex;
+  gap: 37.5px;
+}

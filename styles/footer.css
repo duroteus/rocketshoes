@@ -1,0 +1,41 @@
+footer {
+  grid-area: footer;
+  width: 1440px;
+  height: 166.33px;
+}
+
+.video {
+  width: 250px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialMedias {
+  display: flex;
+  justify-content: space-between;
+  width: 753px;
+  margin: 47px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.moreInfo {
+  width: 437px;
+  height: 166px;
+  background: var(--footer);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  padding: 14px;
+}
